@@ -1,0 +1,9 @@
+search_name,generation,best_score,genome_json,pipeline_json,candidate_id
+dataset_specific_BMA,1,2.4313726448077895,"[""identity""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""identity"", ""params"": {}}]}",gp::67029addad0a2d48
+dataset_specific_BMA,2,2.4313726448077895,"[""identity""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""identity"", ""params"": {}}]}",gp::67029addad0a2d48
+dataset_specific_BMA,3,1.828229145242012,"[""identity""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""identity"", ""params"": {}}]}",gp::67029addad0a2d48
+dataset_specific_BMA,4,1.828229145242012,"[""identity""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""identity"", ""params"": {}}]}",gp::67029addad0a2d48
+dataset_specific_BMA,5,1.765240273593462,"[""identity""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""identity"", ""params"": {}}]}",gp::67029addad0a2d48
+dataset_specific_BMA,6,1.765240273593462,"[""identity""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""identity"", ""params"": {}}]}",gp::67029addad0a2d48
+dataset_specific_BMA,7,1.765240273593462,"[""identity""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""identity"", ""params"": {}}]}",gp::67029addad0a2d48
+dataset_specific_BMA,8,1.765240273593462,"[""identity""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""identity"", ""params"": {}}]}",gp::67029addad0a2d48
