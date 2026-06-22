@@ -1,0 +1,13 @@
+{
+  "stage": "03_run_preprocessed_focus_curves",
+  "status": "complete",
+  "timestamp_utc": "2026-06-02T04:08:24.905309+00:00",
+  "run_id": "q1_cfm4_20260525_042149",
+  "config_path": "/home/dineth/focus_measure/journal/autofocus_preprocess/configs/q1_dataset_specific.yaml",
+  "output_dir": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149",
+  "curves_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/q1_curves/preprocessed_focus_curves.csv",
+  "progress_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/q1_curves/preprocessed_focus_curves.progress.json",
+  "num_curve_rows": 469800,
+  "num_methods": 18,
+  "total_stack_method_pairs": 469800
+}

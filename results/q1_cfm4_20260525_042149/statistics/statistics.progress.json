@@ -1,0 +1,12 @@
+{
+  "stage": "08_statistics_and_sensitivity",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "statistics_dir": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/statistics",
+  "total_steps": 10,
+  "completed_steps": 10,
+  "remaining_steps": 0,
+  "progress_percent": 100.0,
+  "current_step": "write_statistics_outputs",
+  "timestamp_utc": "2026-06-12T05:02:59.189517+00:00"
+}

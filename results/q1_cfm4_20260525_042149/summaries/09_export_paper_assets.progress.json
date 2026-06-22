@@ -1,0 +1,12 @@
+{
+  "stage": "09_export_paper_assets",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "asset_manifest": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/summaries/09_export_paper_assets_assets.json",
+  "total_steps": 28,
+  "completed_steps": 28,
+  "remaining_steps": 0,
+  "progress_percent": 100.0,
+  "current_step": "write_asset_manifest",
+  "timestamp_utc": "2026-06-12T05:03:11.376920+00:00"
+}

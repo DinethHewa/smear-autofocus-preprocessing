@@ -1,0 +1,11 @@
+{
+  "stage": "08_statistics_and_sensitivity",
+  "status": "complete",
+  "timestamp_utc": "2026-06-12T05:02:59.189654+00:00",
+  "run_id": "q1_cfm4_20260525_042149",
+  "config_path": "/home/dineth/focus_measure/journal/autofocus_preprocess/configs/q1_dataset_specific.yaml",
+  "output_dir": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149",
+  "statistics_dir": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/statistics",
+  "progress_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/statistics/statistics.progress.json",
+  "warnings": []
+}

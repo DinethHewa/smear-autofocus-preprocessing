@@ -1,0 +1,6 @@
+scheme,top_method,top_score
+upweight_BMA,single::clahe_enhancement,0.22018459473474847
+upweight_PBS,single::clahe_enhancement,0.22755613284165394
+upweight_TBF,single::ssr,0.23062026557127027
+upweight_TBI,single::clahe_enhancement,0.21061447270956915
+upweight_WBC,single::clahe_enhancement,0.22179772715675322

@@ -1,0 +1,489 @@
+{
+  "source_tree_sha256": "ce8873ae6cefca8b901dc4e25a23e859d5c40eaa8254aa2033aea7f051d75514",
+  "files": [
+    {
+      "path": "sitecustomize.py",
+      "sha256": "1272ecfe94d9851d4d906bbf012399a56abbb19b1af58eb8c0f5093779226b71"
+    },
+    {
+      "path": "checl/focus_measure_selection.py",
+      "sha256": "ace515e6f27d17fe9d0946f943940856c7c57ae39eb75f5ce176d052d30a8b84"
+    },
+    {
+      "path": "checl/genetic_composite.py",
+      "sha256": "d28b47509ca8a200cd435853c994022b35827309622965a56162eb2b11dea878"
+    },
+    {
+      "path": "checl/gp_focus_competitive_explainable.py",
+      "sha256": "4eef4e0b8577f821be40b966d33d0b73d0616a1b288918ca878170329a76c076"
+    },
+    {
+      "path": "checl/single_focus_fitness.py",
+      "sha256": "996d98353ce31a0003420a149fc59778899e8e7083ff3b331df76d28278d469e"
+    },
+    {
+      "path": "checl/top_composite_list.py",
+      "sha256": "23d8b83de0f7326000f88ad266342f957923f52b42e62cafc8521d85ec47990b"
+    },
+    {
+      "path": "checl/top_measure_comparision.py",
+      "sha256": "66635130deea2f67e117a01f48723e5ac45af2384c154d998474423444938292"
+    },
+    {
+      "path": "optimized_safe/build_cache.py",
+      "sha256": "6fd0b23f580b2ed0cd88fc117759eeb46576bf79851e66cc970d72848bf7b56b"
+    },
+    {
+      "path": "optimized_safe/cache_utils.py",
+      "sha256": "9b55f62ad05dd7ea3ed61044c9cbba13dbde0db719c4d8300b316858223db622"
+    },
+    {
+      "path": "optimized_safe/dataframe_backend.py",
+      "sha256": "402cb85cfef417021e90f6380194b7920ee80fa765235693707c133583d35c9e"
+    },
+    {
+      "path": "optimized_safe/gpu_backend.py",
+      "sha256": "3c5b12c0fa809eadbf754fc3e61f3b8343706eed523d311e2968ec3e5a0cc7bd"
+    },
+    {
+      "path": "optimized_safe/optimized_pipeline.py",
+      "sha256": "9101a9f2960a3cd550c77ae31ca97c90f249a08acc8a0232b0bb1bf92b5d39dd"
+    },
+    {
+      "path": "optimized_safe/parallel_utils.py",
+      "sha256": "c2e8eb250bb63d5133e89d2b1f711cf1db7358b3dd3037145eaa133e9522e71d"
+    },
+    {
+      "path": "src/autofocus/__init__.py",
+      "sha256": "af201fbc0696ed533c8358270ab1423eb5e671b6e6f7d5f0e3868b930199cda2"
+    },
+    {
+      "path": "src/autofocus/explain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/autofocus/explain/contribution.py",
+      "sha256": "4762d48ff6389bc528bf5262ff91b8a607ab2641fc700579f93a8b21ccea585b"
+    },
+    {
+      "path": "src/autofocus/explain/exemplars.py",
+      "sha256": "c4e5e6b30572afc5f52f8b239a2c80a1337e061b404dd233db7a2cf1cdb3b6cd"
+    },
+    {
+      "path": "src/autofocus/explain/frequency.py",
+      "sha256": "4442b52e9b251ae52df722720893782f170003cb9f8ff4d36809b5819f25dd0c"
+    },
+    {
+      "path": "src/autofocus/explain/report.py",
+      "sha256": "750b1cd790dbc9bcdd067c6d4109451e7236606687d9a6d58c6b2f24fac68f67"
+    },
+    {
+      "path": "src/autofocus/preprocess/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/autofocus/preprocess/ops.py",
+      "sha256": "c35790bd88c0fd6119c90ab6095194b3ef26125f83adbea56f4ed39e954465f6"
+    },
+    {
+      "path": "src/autofocus/preprocess/optuna_single_op.py",
+      "sha256": "5db6c29fc5c34ba592664a5a5de8efe4a01868b3860848ff7da203a3dfb74b83"
+    },
+    {
+      "path": "src/autofocus/preprocess/optuna_tuner.py",
+      "sha256": "b900834f00d1dc49ace052691fb5e5a25cbefd2c5633df93d0a418d56ca787a4"
+    },
+    {
+      "path": "src/autofocus/preprocess/param_spaces.py",
+      "sha256": "694f4acec213fec2325c7e2cb73d3f44bb43fdbb98452fcc0c3e4ac1a6432436"
+    },
+    {
+      "path": "src/autofocus/preprocess/pipeline.py",
+      "sha256": "9361f3e6a8585f2101f9b692bbad6cb54b2424218515cf65abb2650d9cc8316b"
+    },
+    {
+      "path": "src/autofocus/preprocess/tuned_params.py",
+      "sha256": "03cfb4ee8c3ef43518a2cd2a680a9bd729e9ef5468d8cafb17b3968327433b9f"
+    },
+    {
+      "path": "src/autofocus/metrics/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/autofocus/metrics/curve_metrics.py",
+      "sha256": "078e943e6e2a0985377e96bd82eed14608aeeeba716352be565d82e45535cfb2"
+    },
+    {
+      "path": "src/autofocus/metrics/focus_measures.py",
+      "sha256": "5f96e0ce250b26876351c250a4e884672627c7521402180e24efc41b24f58089"
+    },
+    {
+      "path": "src/autofocus/metrics/objectives.py",
+      "sha256": "7005b7b10adcc267c9d6b37db16cd12e675152d29d9ae7ce0deeafc7f505089e"
+    },
+    {
+      "path": "src/autofocus/metrics/torch_cfm4.py",
+      "sha256": "457aa6445046a3780820b8a963627d79127a244f86578fc17b0ecec75ae65b7b"
+    },
+    {
+      "path": "src/autofocus/metrics/unsupervised.py",
+      "sha256": "bb5c8a3374033c123e55c6cda82549881b0b216809d96bfb46fa79b40ee5ad2e"
+    },
+    {
+      "path": "src/autofocus/q1/__init__.py",
+      "sha256": "4b3cdc894440592d44db3c79d71e1fa2237105e7800034159f1da63bd7533253"
+    },
+    {
+      "path": "src/autofocus/q1/aggregation.py",
+      "sha256": "f4bb83d47ce84ac6232727d40dcffcd8db732072d4829425ce4268d172d7b4e8"
+    },
+    {
+      "path": "src/autofocus/q1/config.py",
+      "sha256": "f1fed5d76089b332beaf76764602820d954c6868cd18bf8edfbbc696b8d22f56"
+    },
+    {
+      "path": "src/autofocus/q1/curves.py",
+      "sha256": "2584b15c2c43f0f83c5a34dc44dea089fc28ecd72083e114057726fe51f8f0ce"
+    },
+    {
+      "path": "src/autofocus/q1/exports.py",
+      "sha256": "b8858582a182f05a2c6078ca48265cfc4df2e5968d29e277457955f20e20c3a9"
+    },
+    {
+      "path": "src/autofocus/q1/gp_search.py",
+      "sha256": "f8bf4b0d37e33a958dd6c5484a268020d5c5129089d7fb7278617a2850f45bff"
+    },
+    {
+      "path": "src/autofocus/q1/labels.py",
+      "sha256": "728f49cccf91c181be455f95d6cb45927d5baf8720644b91bc1b46c8c6a58415"
+    },
+    {
+      "path": "src/autofocus/q1/metrics.py",
+      "sha256": "6642792f60ec1b2732e8903037215b43c3f0505451b5a5d6b77b99aa3590961e"
+    },
+    {
+      "path": "src/autofocus/q1/parameter_space.py",
+      "sha256": "47b0bfd501afe6d191fbf4ec38a25e0be5cde48b0a4e8d6df2a2a6d9818077ae"
+    },
+    {
+      "path": "src/autofocus/q1/stages.py",
+      "sha256": "760633ccda0e698b17b193a67af52a47afde3d38904376c67c86f721005f3b51"
+    },
+    {
+      "path": "src/autofocus/q1/statistics.py",
+      "sha256": "601bab44eea88d1092ccafd52c03632f88c6b9cfe514587972a122ea5a4be17a"
+    },
+    {
+      "path": "src/autofocus/q1/workflows.py",
+      "sha256": "01c88fd48364035655ed51a0e90aac91f6dc02d1b32fff7f941aac2ce60f733b"
+    },
+    {
+      "path": "src/autofocus/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/autofocus/utils/config.py",
+      "sha256": "6c9e8c58c25ea1046ba12aa2b039768c22725000b5bdefe770ecc1eb27b7ab2e"
+    },
+    {
+      "path": "src/autofocus/utils/config_validate.py",
+      "sha256": "fae7d88d061ca7258d9c968de68e79d1682e14e11a1fd8f3b8c86c5fc1cd0ba8"
+    },
+    {
+      "path": "src/autofocus/utils/logging.py",
+      "sha256": "45f92d7d90bc47c71e227bbb226170a49d8c61aaf149684c5ad42c21a11c2c88"
+    },
+    {
+      "path": "src/autofocus/utils/profiling.py",
+      "sha256": "b72f712f5df03152ae1fbba2f7fef594645e1818308747f2e43deb5090668018"
+    },
+    {
+      "path": "src/autofocus/utils/run_artifacts.py",
+      "sha256": "90ecf40af4699b5bf6b508a53747322de42164a2cff3b8fa03e86ee4df44b5e1"
+    },
+    {
+      "path": "src/autofocus/utils/seed.py",
+      "sha256": "6fdade9306d2d21f36262828711f51fda3c1fcf11a3d7cf81a2962a30b065544"
+    },
+    {
+      "path": "src/autofocus/cli/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/autofocus/cli/build_q1_paper_outputs.py",
+      "sha256": "4065dff7c6e67421c1f9b9bd1b6dcd89c341ba8d4660b0a0522afaf05cc52def"
+    },
+    {
+      "path": "src/autofocus/cli/make_report.py",
+      "sha256": "5da2d6ca4e430774e635fe27cc1e23a4f77b034a6e74c5b13992fb5e45a3e2f8"
+    },
+    {
+      "path": "src/autofocus/cli/make_tables.py",
+      "sha256": "7005767c621650e7644f4727e4a587b50a5f493cd82b90181b8957dc5187e0b5"
+    },
+    {
+      "path": "src/autofocus/cli/run_eval.py",
+      "sha256": "b13f5990e90934f1fa805c5f43665354559a976a47eb03dbb2171180564d1f7f"
+    },
+    {
+      "path": "src/autofocus/cli/run_full.py",
+      "sha256": "59703a802b8253bad55e39ef8b7f3a3ec2e1ecabff55586fabef33b14c66aa6b"
+    },
+    {
+      "path": "src/autofocus/cli/run_gp.py",
+      "sha256": "fc9869c1d75001d53bf499011c9ea6b4f1d520eac9719b36b668d30cea370891"
+    },
+    {
+      "path": "src/autofocus/cli/run_optuna.py",
+      "sha256": "0662e59f882c9144dbb7291f8d66e8e5921a9ab9e6cc807b6d3dbe056072b9c3"
+    },
+    {
+      "path": "src/autofocus/cli/run_optuna_per_op.py",
+      "sha256": "fdcf2d6945ace4b1f19fc2b63827873530a0ac66d2b12f4c2d7cb0ab41a185bb"
+    },
+    {
+      "path": "src/autofocus/gp/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/autofocus/gp/deap_setup.py",
+      "sha256": "e54455ce888042e4f7be9e2c389c298d8466876484395692e4e63ca44a81fa2e"
+    },
+    {
+      "path": "src/autofocus/gp/genome.py",
+      "sha256": "cc87dd04205a1a3a2787361e98b67b8c23ffe750a9d0f483fa931894978aedf6"
+    },
+    {
+      "path": "src/autofocus/gp/preprocess_gp.py",
+      "sha256": "16b5c326059f4059558d66ea61b834eb242bc488aa9d6bc0326a7f5388b93f76"
+    },
+    {
+      "path": "src/autofocus/eval/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/autofocus/eval/ablations.py",
+      "sha256": "3389ca4c70791d3bdf26a87af3ba79179b1c6704fcf9442483381c6e3476a6e0"
+    },
+    {
+      "path": "src/autofocus/eval/baselines.py",
+      "sha256": "fc6cb0ec5dfe471651e76e5411dc20ab7fccacf58a6d070b9d3ddbc4640008cc"
+    },
+    {
+      "path": "src/autofocus/eval/evaluate.py",
+      "sha256": "a4e27b0b9e83731a84ea2a69ec863175290da288c2c09c06bbe30210c7c9f1cc"
+    },
+    {
+      "path": "src/autofocus/eval/stats.py",
+      "sha256": "331f9e174397730ced47501686cbb72d873f4f2fe5b5ddf190864b58fe3b770e"
+    },
+    {
+      "path": "src/autofocus/eval/summary.py",
+      "sha256": "5fdc56cee54867775e90bf65be4506baea447094d437a56aff451440787a5d4d"
+    },
+    {
+      "path": "src/autofocus/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/autofocus/data/io.py",
+      "sha256": "06efb44c005f612c864ae9aef9f19a765a80d2778f87e58acd11574524be54f5"
+    },
+    {
+      "path": "src/autofocus/data/manifests.py",
+      "sha256": "ba7db5fe2674bb4914e50155c0f848a14bd2969e21c99634fcc179e89533e701"
+    },
+    {
+      "path": "src/autofocus/data/splits.py",
+      "sha256": "d6c38049adbf699dffc56a2faae047f7344a45a1e5e431980995f22b2419ba5d"
+    },
+    {
+      "path": "scripts/build_q1_paper_outputs.py",
+      "sha256": "1e7a84ee9adc1b8a8b701cad0f8fa0a5886099c3e9687eab386a9960e36b61d3"
+    },
+    {
+      "path": "scripts/make_ablation_table.py",
+      "sha256": "3a6db2347d846e77c7d698d22e66556bb511935e15e21a3bceb5a2f18b41dae8"
+    },
+    {
+      "path": "scripts/make_report.py",
+      "sha256": "8ac7a0380e389468253cebb76bbb471d1f8dbdd3c247de525acd5325363479c9"
+    },
+    {
+      "path": "scripts/make_tables.py",
+      "sha256": "d6f69497a4d95f989c3031a1fdfc129850945b353ed7c83075a9ca33f9354f38"
+    },
+    {
+      "path": "scripts/merge_gp_with_perop.py",
+      "sha256": "aca2dce916498468f358392b92d6071e3e48e66ccde719cbfd93c8b2d3f2f303"
+    },
+    {
+      "path": "scripts/run_eval.py",
+      "sha256": "9097a08fed96918f6127d59cea77d991a7b8e5012cbb5358a8a6a31a5c4dd6c4"
+    },
+    {
+      "path": "scripts/run_full.py",
+      "sha256": "887f99cb9d8d0cca57a1b3bb5b6b0ebc3188401df18310424c8875785911fc0a"
+    },
+    {
+      "path": "scripts/run_gp.py",
+      "sha256": "3850ff2421905589ac302cf0527eb2678e7ac8420a42816379dd19ece31ef291"
+    },
+    {
+      "path": "scripts/run_optuna.py",
+      "sha256": "219b6b5679a682bbba1c530c639d1e36123e2097acb125e1a44f32e8c97af68d"
+    },
+    {
+      "path": "scripts/q1_pipeline/01_build_stacks_and_manifest.py",
+      "sha256": "913a5dd5493c4c5aa990781c931cd822ae3fa01822a706f58be5e61cb395b5d0"
+    },
+    {
+      "path": "scripts/q1_pipeline/02_build_reference_labels.py",
+      "sha256": "4ed41958f98a076fb7741423347c3ba7a0a4634e631e60ecfc0322fff3338a4e"
+    },
+    {
+      "path": "scripts/q1_pipeline/03_run_preprocessed_focus_curves.py",
+      "sha256": "104324da37c5a5ea05fd2cb6fbacf69a8567fea40ea492960b45e65c53c7bd76"
+    },
+    {
+      "path": "scripts/q1_pipeline/04_evaluate_workflows_q1_metrics.py",
+      "sha256": "1f2086c68db976dbcd6347ac0563d6a6b80dd3fa8e70997cc2f7812e65895e6c"
+    },
+    {
+      "path": "scripts/q1_pipeline/05_generalized_workflow_search_lodo.py",
+      "sha256": "b0002235c4056e1d6e18b22de664c1ca0493dc45d50194893875df2168a98776"
+    },
+    {
+      "path": "scripts/q1_pipeline/06_dataset_specific_workflow_search.py",
+      "sha256": "0649ffbed46cb2da16a071b60976083617b86a9031700660478482b0a7c84b7c"
+    },
+    {
+      "path": "scripts/q1_pipeline/07_compare_generalized_vs_specific.py",
+      "sha256": "72b93caa824c5d05008615c14a21bb7ebfd2e7ded45f80f8080e908130dbb624"
+    },
+    {
+      "path": "scripts/q1_pipeline/08_statistics_and_sensitivity.py",
+      "sha256": "dbc7047034540b736b3cb8ae902dad610a86602aa2bc5106f3a6a6443f34f44b"
+    },
+    {
+      "path": "scripts/q1_pipeline/09_export_paper_assets.py",
+      "sha256": "f98b0606bc7a6a174039be412fbde5dd8c0a1299652af99162a71ae289807cd8"
+    },
+    {
+      "path": "scripts/q1_pipeline/10_run_full_q1_pipeline.py",
+      "sha256": "3d369c757e6a3e0b29acc83f47980bc7cbabc38449e340bd2f407f4c471fc85b"
+    },
+    {
+      "path": "scripts/q1_pipeline/_common.py",
+      "sha256": "5cf0086f5df5f5aae0d8bccfd30834410f600ef51c6d3dfb7be40b2783773190"
+    },
+    {
+      "path": "configs/datasets.yaml",
+      "sha256": "78de32d5652cf9763bd4745ab2ac774f999cf41d05f41ecc7573795d3eef7db1"
+    },
+    {
+      "path": "configs/default.yaml",
+      "sha256": "066acd866ed0bfc3c2efd6d2ba7d96b5d1730acde1f404ba491587715e74b769"
+    },
+    {
+      "path": "configs/q1_dataset_specific.yaml",
+      "sha256": "3dc8033161e2f87517552571cb061a3ec25436f1ffc2f985d802d168425060fd"
+    },
+    {
+      "path": "configs/q1_generalized.yaml",
+      "sha256": "2b8b870eb558daff206cff37e1e652ba06b27487163b16c0642f50835bd9c308"
+    },
+    {
+      "path": "configs/q1_smoke.yaml",
+      "sha256": "b4f777601e36f503b75614b62813568b6e6ba0b0cf524d60d6451e5094d61871"
+    },
+    {
+      "path": "performance_audit/benchmark_runner.py",
+      "sha256": "1f1274a305eb3c6aaff9d72d77edd0e26bc5d2dc3d2a91bc53b2f7a0afd6ccc8"
+    },
+    {
+      "path": "performance_audit/bottleneck_scanner.py",
+      "sha256": "0b126594ae6bfe8b935669e15f143743cc32c247c4ac96d7e1cd0e9a8555cb32"
+    },
+    {
+      "path": "performance_audit/environment_report.py",
+      "sha256": "e87d4f415779a325aa13063e2b4d472a58c2460d86b708267ee121c270bdf324"
+    },
+    {
+      "path": "performance_audit/profile_runner.py",
+      "sha256": "4d208b24c61f164c65ae34a027ef7ba9f95fdc4138d808a7f2ceb26022febedd"
+    },
+    {
+      "path": "performance_audit/validate_outputs.py",
+      "sha256": "d87e90c83edecf83649b251cbdca216140cfb19d6c1b43318b7ab2f1f3053381"
+    },
+    {
+      "path": "autofocus/__init__.py",
+      "sha256": "7fc0a0fe183a5b3420c3a4f40f00cad6220b95fee000cc5ea69c3ec4b5ef8e9b"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "3ced032d7818b09a20ed360de498144627739c4b7fc71122d63be95c22174743"
+    },
+    {
+      "path": "tests/test_build_q1_paper_outputs.py",
+      "sha256": "084bce90940617e330399faf46c351de54ed79fdf93495ee8550daa2f23a091a"
+    },
+    {
+      "path": "tests/test_determinism.py",
+      "sha256": "462bd41f41a2c940846e7c6f091a5c0f010d1befe6ca10164eaf80cc4aa3f260"
+    },
+    {
+      "path": "tests/test_empty_space_hard_fails.py",
+      "sha256": "572b96012c8e653b1b5f0166d14d1d587dc48ac62d2647b0caa8f39978861467"
+    },
+    {
+      "path": "tests/test_objectives.py",
+      "sha256": "0da151a48ea4fddcfa652549a7b966b2c31d7d7d17a9b07d46358c281ad57db2"
+    },
+    {
+      "path": "tests/test_ops.py",
+      "sha256": "86368a25c5554d9e795c13c0a1db45a017a31ddf2bc24bf95032e5dd34575f7a"
+    },
+    {
+      "path": "tests/test_optuna_nonempty_space.py",
+      "sha256": "138ac3e26c1b90572f79f4ea70aa5ba683d07b4b238460ee5b1b4928675c030b"
+    },
+    {
+      "path": "tests/test_per_op_cli_builds_configs.py",
+      "sha256": "5b9cee86380dc60592d95d3919f1d5b165e5fc1bb52c8fbce1204b490028f06e"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "sha256": "0c99b9a4c81146b1d2f943a3b742276cb26b6dfab2cf65278da8ef75a2712f0f"
+    },
+    {
+      "path": "tests/test_q1_pipeline.py",
+      "sha256": "5ac9937219b817fc146ece23de6cf189c1b58165f5bc1b0078650549c8dfe152"
+    },
+    {
+      "path": "tests/test_repo_sanity.py",
+      "sha256": "e11d989ae2fa27cc915dbb6acc2a10d77cd4aa5e61f7042a673d0159cd2ef406"
+    },
+    {
+      "path": "tests/test_run_summary_format.py",
+      "sha256": "ac23a1600b2c357052ff3c47eac2b9fd02bb314f2782c0f599b6c6a3b2b84877"
+    },
+    {
+      "path": "tests/test_splits.py",
+      "sha256": "bca0e49fc95947928f82ca78a163d7ebd84755a54722bea8fc12da3ca015914f"
+    },
+    {
+      "path": "tests/test_trial_results_written.py",
+      "sha256": "96c0619797b5aff049451cadc32108b3e253ddde35313694525762c85717d402"
+    },
+    {
+      "path": "tests/test_unsupervised_objective.py",
+      "sha256": "004a7a975f9bc328646a925bfd76f9815c94ae230597a8f869eb7167844b8937"
+    },
+    {
+      "path": "tests/test_unsupervised_objective_finite.py",
+      "sha256": "1fb8c18c5d3b046c1419e7d3abf32e38e836e9456f4387cd0fb5ff84a263e291"
+    }
+  ]
+}

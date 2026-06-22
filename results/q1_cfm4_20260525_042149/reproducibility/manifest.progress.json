@@ -1,0 +1,9 @@
+{
+  "stage": "01_build_stacks_and_manifest",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "manifest_path": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/reproducibility/manifest_used.csv",
+  "resumed_from_existing": true,
+  "progress_percent": 100.0,
+  "timestamp_utc": "2026-06-02T04:08:16.686982+00:00"
+}

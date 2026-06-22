@@ -1,0 +1,9 @@
+{
+  "stage": "02_build_reference_labels",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "reference_labels": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/labels/reference_labels.csv",
+  "resumed_from_existing": true,
+  "progress_percent": 100.0,
+  "timestamp_utc": "2026-06-02T04:08:16.690799+00:00"
+}

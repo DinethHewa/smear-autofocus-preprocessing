@@ -1,0 +1,52 @@
+{
+  "run_id": "q1_cfm4_20260525_042149",
+  "timestamp_utc": "2026-06-12T05:03:14.101432+00:00",
+  "config_hash": "3dc8033161e2f87517552571cb061a3ec25436f1ffc2f985d802d168425060fd",
+  "manifest_hash": "12b0c71ec15a4e3d09857050fc8f985563ccbd8aa91039a9d650530f1f54cc9e",
+  "source_tree_hash": "ce8873ae6cefca8b901dc4e25a23e859d5c40eaa8254aa2033aea7f051d75514",
+  "random_seeds": {
+    "seed": 123
+  },
+  "dataset_paths": {
+    "datasets": [
+      {
+        "name": "WBC",
+        "path": "/home/dineth/focus_measure/datasets/WBC_dataset1",
+        "source_stack_file": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/01_stacks/arrays/WBC_stacks.npy",
+        "label_path": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/02_reference_labels/surrogate/WBC_surrogate_labels.npy",
+        "label_source": "q1_revision_surrogate"
+      },
+      {
+        "name": "TBI",
+        "path": "/home/dineth/focus_measure/datasets/New folder/TBSI/folders",
+        "source_stack_file": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/01_stacks/arrays/TBI_stacks.npy",
+        "label_path": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/02_reference_labels/surrogate/TBI_surrogate_labels.npy",
+        "label_source": "q1_revision_surrogate"
+      },
+      {
+        "name": "PBS",
+        "path": "/home/dineth/focus_measure/datasets/New folder/bma pbf tfa/pbs_imgs",
+        "source_stack_file": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/01_stacks/arrays/PBS_stacks.npy",
+        "label_path": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/02_reference_labels/surrogate/PBS_surrogate_labels.npy",
+        "label_source": "q1_revision_surrogate"
+      },
+      {
+        "name": "BMA",
+        "path": "/home/dineth/focus_measure/datasets/New folder/bma pbf tfa/bma_imgs",
+        "source_stack_file": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/01_stacks/arrays/BMA_stacks.npy",
+        "label_path": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/02_reference_labels/surrogate/BMA_surrogate_labels.npy",
+        "label_source": "q1_revision_surrogate"
+      },
+      {
+        "name": "TBF",
+        "path": "/home/dineth/focus_measure/datasets/New folder/bma pbf tfa/tbf_imgs",
+        "source_stack_file": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/01_stacks/arrays/TBF_stacks.npy",
+        "label_path": "/home/dineth/focus_measure/journal/focus_measure_q1_revision/outputs/02_reference_labels/surrogate/TBF_surrogate_labels.npy",
+        "label_source": "q1_revision_surrogate"
+      }
+    ],
+    "smoke_rows": 20
+  },
+  "num_failures": 0,
+  "output_dir": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149"
+}

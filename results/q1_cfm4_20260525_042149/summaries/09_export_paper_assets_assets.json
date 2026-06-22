@@ -1,0 +1,6 @@
+{
+  "paper1_assets": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/assets",
+  "paper2_assets": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific/assets",
+  "parameter_space_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/tables/Table_S1_ParameterSpace.csv",
+  "progress_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/summaries/09_export_paper_assets.progress.json"
+}

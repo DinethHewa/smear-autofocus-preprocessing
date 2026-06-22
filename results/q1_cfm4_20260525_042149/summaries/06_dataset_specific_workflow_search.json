@@ -1,0 +1,14 @@
+{
+  "stage": "06_dataset_specific_workflow_search",
+  "status": "complete",
+  "timestamp_utc": "2026-06-11T10:46:50.281287+00:00",
+  "run_id": "q1_cfm4_20260525_042149",
+  "config_path": "/home/dineth/focus_measure/journal/autofocus_preprocess/configs/q1_dataset_specific.yaml",
+  "output_dir": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149",
+  "paper2_dir": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific",
+  "progress_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific/dataset_specific_results.progress.json",
+  "selected_curves_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific/dataset_specific_selected_focus_curves.csv",
+  "num_dataset_specific_rows": 5220,
+  "optimizer_status": "genetic_programming",
+  "source": "new_gp_candidate_curves_and_q1_metrics"
+}

@@ -1,0 +1,12 @@
+{
+  "stage": "01_build_stacks_and_manifest",
+  "status": "skipped_existing",
+  "timestamp_utc": "2026-06-02T04:08:16.687802+00:00",
+  "run_id": "q1_cfm4_20260525_042149",
+  "config_path": "/home/dineth/focus_measure/journal/autofocus_preprocess/configs/q1_dataset_specific.yaml",
+  "output_dir": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149",
+  "resumed_from_existing": true,
+  "primary_output": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/reproducibility/manifest_used.csv",
+  "manifest_path": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/reproducibility/manifest_used.csv",
+  "progress_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/reproducibility/manifest.progress.json"
+}
