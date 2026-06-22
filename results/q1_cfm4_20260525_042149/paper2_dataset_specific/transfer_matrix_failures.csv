@@ -1,0 +1,6 @@
+dataset,generalized_workflow,BMA_specific_workflow,PBS_specific_workflow,TBF_specific_workflow,TBI_specific_workflow,WBC_specific_workflow,identity,best_fixed_single,oracle_single_exploratory
+BMA,0,0,0,0,0,0,0,0,0
+PBS,0,0,0,0,0,0,0,0,0
+TBF,0,0,0,0,0,0,0,0,0
+TBI,0,0,0,0,0,0,0,0,0
+WBC,0,0,0,0,0,0,0,0,0

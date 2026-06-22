@@ -1,0 +1,8 @@
+operator_or_workflow,count
+fft_highpass_filter,1
+gaussian_blur,1
+gradient_morph,1
+histogram_equalization,2
+identity,1
+laplacian_sharpen,1
+median_filter,1

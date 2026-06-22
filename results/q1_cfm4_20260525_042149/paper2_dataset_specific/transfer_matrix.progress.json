@@ -1,0 +1,15 @@
+{
+  "stage": "07_compare_generalized_vs_specific",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "source_metrics_csv_for_baseline_selection": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/q1_metrics/per_stack_metrics.csv",
+  "source": "fresh_workflow_evaluation",
+  "transfer_matrix_rank_score": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific/transfer_matrix_rank_score.csv",
+  "transfer_results_per_stack": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific/transfer_results_per_stack.csv",
+  "transfer_focus_curves": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific/transfer_focus_curves.csv",
+  "total_datasets": 5,
+  "completed_datasets": 5,
+  "remaining_datasets": 0,
+  "progress_percent": 100.0,
+  "timestamp_utc": "2026-06-12T02:09:02.225286+00:00"
+}

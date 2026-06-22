@@ -1,0 +1,14 @@
+{
+  "stage": "06_dataset_specific_workflow_search",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "optimizer_status": "genetic_programming",
+  "source": "new_gp_candidate_curves_and_q1_metrics",
+  "dataset_specific_results_per_stack": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific/dataset_specific_results_per_stack.csv",
+  "selected_curves_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper2_dataset_specific/dataset_specific_selected_focus_curves.csv",
+  "total_datasets": 5,
+  "completed_datasets": 5,
+  "remaining_datasets": 0,
+  "progress_percent": 100.0,
+  "timestamp_utc": "2026-06-11T10:46:50.281172+00:00"
+}
