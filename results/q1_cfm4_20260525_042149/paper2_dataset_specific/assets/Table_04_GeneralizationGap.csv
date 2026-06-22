@@ -1,0 +1,6 @@
+dataset,specific_minus_generalized_rank_score,specific_minus_generalized_value_score,interpretation
+BMA,-0.9501646345265446,-0.18654201808287096,specific_better
+PBS,-0.9295288280422573,-0.09982626541606543,specific_better
+TBF,-0.7570772724939507,0.001227325921922262,specific_better
+TBI,-0.23588335883584666,0.044822987520183294,specific_better
+WBC,-0.4161994941095042,-0.04260339013005798,specific_better
