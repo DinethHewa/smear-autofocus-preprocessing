@@ -1,0 +1,9 @@
+search_name,generation,best_score,genome_json,pipeline_json,candidate_id
+generalized_lodo_TBI,1,3.2612918246659253,"[""histogram_equalization""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""histogram_equalization"", ""params"": {}}]}",gp::e1e3584cb948764a
+generalized_lodo_TBI,2,1.915204849240637,"[""histogram_equalization""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""histogram_equalization"", ""params"": {}}]}",gp::e1e3584cb948764a
+generalized_lodo_TBI,3,1.915204849240637,"[""histogram_equalization""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""histogram_equalization"", ""params"": {}}]}",gp::e1e3584cb948764a
+generalized_lodo_TBI,4,1.915204849240637,"[""histogram_equalization""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""histogram_equalization"", ""params"": {}}]}",gp::e1e3584cb948764a
+generalized_lodo_TBI,5,1.915204849240637,"[""histogram_equalization""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""histogram_equalization"", ""params"": {}}]}",gp::e1e3584cb948764a
+generalized_lodo_TBI,6,1.915204849240637,"[""histogram_equalization""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""histogram_equalization"", ""params"": {}}]}",gp::e1e3584cb948764a
+generalized_lodo_TBI,7,1.915204849240637,"[""histogram_equalization""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""histogram_equalization"", ""params"": {}}]}",gp::e1e3584cb948764a
+generalized_lodo_TBI,8,1.915204849240637,"[""histogram_equalization""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""histogram_equalization"", ""params"": {}}]}",gp::e1e3584cb948764a

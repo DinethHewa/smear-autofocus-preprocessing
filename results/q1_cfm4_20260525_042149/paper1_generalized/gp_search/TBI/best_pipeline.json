@@ -1,0 +1,11 @@
+{
+  "steps": [
+    {
+      "name": "histogram_equalization",
+      "enabled": true,
+      "params": {},
+      "category": "gp_step_1",
+      "baseline": false
+    }
+  ]
+}
