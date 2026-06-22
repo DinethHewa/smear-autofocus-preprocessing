@@ -1,0 +1,5 @@
+dataset,stack_id,group_id,path,stack_index,outer_split,inner_split,best_focus_index,confidence
+WBC,WBC_smoke_train,WBC_smoke_train,stack1.npy,0,trainval,train,2,1.0
+WBC,WBC_smoke_test,WBC_smoke_test,stack2.npy,0,test,test,3,1.0
+TBI,TBI_smoke_train,TBI_smoke_train,stack2.npy,0,trainval,train,3,1.0
+TBI,TBI_smoke_test,TBI_smoke_test,stack1.npy,0,test,test,2,1.0

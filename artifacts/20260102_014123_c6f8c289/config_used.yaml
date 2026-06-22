@@ -1,0 +1,11 @@
+metrics:
+  failure_penalty: 1000000
+  stability_eps: 1.0e-9
+  dataset_weights:
+    TBF: 1
+    PBS: 1
+    WBC: 1
+    BMA: 1
+    TBI: 1
+evaluation:
+  reference_paths: {}

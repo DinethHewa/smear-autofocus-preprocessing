@@ -1,0 +1,6 @@
+{
+  "config_hash": "test-fixture",
+  "git_hash": "test-fixture",
+  "opencv_available": true,
+  "os": "test"
+}

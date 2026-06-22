@@ -1,0 +1,3 @@
+dataset,stack_id,group_id,split,path,best_focus_index
+sample,s1,g1,train,data/stack1.npy,2
+sample,s2,g2,test,data/stack2.npy,3

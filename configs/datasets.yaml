@@ -1,0 +1,3 @@
+datasets:
+  example:
+    manifest_path: data/manifest.csv

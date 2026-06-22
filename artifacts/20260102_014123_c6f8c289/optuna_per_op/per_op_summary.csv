@@ -1,0 +1,4 @@
+op_name,best_value,ms_per_image,failures_failed,failures_total,objective_mode,best_params_json
+tophat_bothat,1,2.0,0,5,unsupervised,"{}"
+msr,2,2.5,0,5,unsupervised,"{}"
+clahe,3,1.8,0,5,unsupervised,"{}"

@@ -1,0 +1,186 @@
+seed: 123
+run:
+  name: q1_generalized
+  output_root: paper_outputs
+data:
+  datasets:
+    - name: WBC
+      path: data/external/WBC_stacks.npy
+      source_stack_file: data/external/WBC_stacks.npy
+      label_path: data/external/WBC_surrogate_labels.npy
+      label_source: q1_revision_surrogate
+    - name: TBI
+      path: data/external/TBI_stacks.npy
+      source_stack_file: data/external/TBI_stacks.npy
+      label_path: data/external/TBI_surrogate_labels.npy
+      label_source: q1_revision_surrogate
+    - name: PBS
+      path: data/external/PBS_stacks.npy
+      source_stack_file: data/external/PBS_stacks.npy
+      label_path: data/external/PBS_surrogate_labels.npy
+      label_source: q1_revision_surrogate
+    - name: BMA
+      path: data/external/BMA_stacks.npy
+      source_stack_file: data/external/BMA_stacks.npy
+      label_path: data/external/BMA_surrogate_labels.npy
+      label_source: q1_revision_surrogate
+    - name: TBF
+      path: data/external/TBF_stacks.npy
+      source_stack_file: data/external/TBF_stacks.npy
+      label_path: data/external/TBF_surrogate_labels.npy
+      label_source: q1_revision_surrogate
+  smoke_rows: 20
+stack_building:
+  input_format: npy_or_manifest
+  slice_axis: 0
+  validate_stack_shape: true
+splits:
+  strategy: group_disjoint
+  stratify_by_dataset: true
+  outer_test_size: 0.2
+  inner_val_size: 0.2
+imbalance_management:
+  split_strategy: dataset_stratified_group_disjoint
+  primary_aggregation: equal_dataset
+  secondary_aggregation: per_stack
+  use_full_wbc: true
+  note: WBC is kept at full Q1-revision stack count; imbalance is handled by dataset-stratified splits and equal-dataset primary aggregation, not by downsampling.
+focus_measure:
+  name: cfm4
+  maximize: true
+  backend: torch_cuda_auto
+  cuda:
+    validate: false
+    fallback: true
+    validation_min_corr: 0.95
+    validation_max_peak_delta: 1
+labels:
+  surrogate_voters:
+    - variance_of_laplacian
+    - gradient_squared_energy
+    - roberts_focus_measure
+    - edge_width_sharpness_index
+    - image_entropy
+  leave_one_out: true
+preprocessing_library:
+  categories: [denoise, contrast, edge, frequency, morph, color, retinex, upsample, structure]
+  include_unavailable_in_tables: true
+workflows:
+  candidates:
+    - name: identity
+      type: baseline
+      steps:
+        - {name: identity, enabled: true, category: structure, params: {}}
+    - name: conventional_clahe_unsharp
+      type: conventional_baseline
+      steps:
+        - {name: clahe_enhancement, enabled: true, category: contrast, params: {clip_limit: 2.0, tile_grid_size: 8}}
+        - {name: unsharp_mask, enabled: true, category: edge, params: {sigma: 1.0, amount: 1.0, ksize: 3}}
+  single_ops:
+    - gaussian_blur
+    - median_filter
+    - bilateral_filter
+    - nlm_denoising
+    - clahe_enhancement
+    - histogram_equalization
+    - gamma_correction
+    - unsharp_mask
+    - laplacian_sharpen
+    - dog_filter
+    - fft_highpass_filter
+    - gradient_morph
+    - morph_open_close
+    - tophat_bothat
+    - ssr
+    - msr
+optimization:
+  generalized:
+    optimizer: genetic_programming
+    gp_generations: 8
+    population_size: 8
+    elite_size: 3
+    mutation_rate: 0.2
+    crossover_rate: 0.8
+    max_pipeline_length: 3
+    search_max_stacks_per_dataset: 10
+    search_compute_rrmse: false
+    candidate_chunk_stack_count: 2
+    candidate_num_workers: 1
+    operator_allowlist:
+      - identity
+      - gaussian_blur
+      - median_filter
+      - clahe_enhancement
+      - histogram_equalization
+      - gamma_correction
+      - unsharp_mask
+      - laplacian_sharpen
+      - dog_filter
+      - fft_highpass_filter
+      - gradient_morph
+      - morph_open_close
+      - tophat_bothat
+    candidate_search_fallback: deterministic_candidate_search
+  dataset_specific:
+    optimizer: disabled_for_paper1
+lodo:
+  enabled: true
+  heldout_unit: dataset
+  min_train_datasets: 4
+dataset_specific:
+  enabled: false
+aggregation:
+  alpha: 0.7
+  dataset_weighting: equal_dataset
+  metric_weights:
+    absolute_peak_localization_error: 0.20
+    range_around_global_maximum: 0.15
+    false_maxima_count: 0.10
+    fwhm: 0.10
+    noise_level: 0.10
+    steep_to_gradual_slope_ratio: 0.10
+    execution_time_per_slice: 0.10
+    steep_slope_width: 0.05
+    curvature_at_peak: 0.05
+    rrmse_under_additive_noise: 0.05
+  alpha_sensitivity: [0.5, 0.6, 0.7, 0.8, 0.9]
+  metric_weight_schemes:
+    default:
+      absolute_peak_localization_error: 0.20
+      range_around_global_maximum: 0.15
+      false_maxima_count: 0.10
+      fwhm: 0.10
+      noise_level: 0.10
+      steep_to_gradual_slope_ratio: 0.10
+      execution_time_per_slice: 0.10
+      steep_slope_width: 0.05
+      curvature_at_peak: 0.05
+      rrmse_under_additive_noise: 0.05
+    runtime_penalized:
+      absolute_peak_localization_error: 0.18
+      range_around_global_maximum: 0.12
+      false_maxima_count: 0.10
+      fwhm: 0.10
+      noise_level: 0.10
+      steep_to_gradual_slope_ratio: 0.08
+      execution_time_per_slice: 0.20
+      steep_slope_width: 0.04
+      curvature_at_peak: 0.04
+      rrmse_under_additive_noise: 0.04
+statistics:
+  bootstrap_resamples: 2000
+  confidence_level: 0.95
+  noise_std: 0.01
+  noise_seed: 123
+  compute_rrmse: true
+outputs:
+  root: paper_outputs
+  export_figures: true
+  export_tables: true
+  progress_interval_stack_methods: 25
+  stage03_chunk_stack_count: 1
+  stage04_chunk_stack_count: 1
+runtime_metadata:
+  hardware_notes: fill in exact machine, CPU, GPU and RAM before final paper run
+  cpu: auto
+  gpu: optional

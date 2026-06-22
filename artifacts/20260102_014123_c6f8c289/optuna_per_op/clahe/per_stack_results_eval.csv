@@ -1,0 +1,6 @@
+dataset,group_id,stack_id,stack_index,total_fitness,is_failure,runtime_sec,pred_peak,penalty_nonfinite,penalty_flat,penalty_multi_peak
+TBF,TBF_000000,TBF_000000,0,120,0,0.018,2,0,0,0
+PBS,PBS_000000,PBS_000000,0,50,0,0.018,2,0,0,0
+WBC,WBC_000000,WBC_000000,0,50,0,0.018,2,0,0,0
+BMA,BMA_000000,BMA_000000,0,50,0,0.018,2,0,0,0
+TBI,TBI_000000,TBI_000000,0,50,0,0.018,2,0,0,0

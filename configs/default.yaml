@@ -1,0 +1,82 @@
+seed: 123
+artifacts_dir: artifacts
+data_mode: direct
+direct_inputs:
+  datasets:
+    - name: WBC
+      path: D:/Dineth/Python/binary/Notebooks/z prev/image_stacks/WBC_GP.npy
+    - name: TBI
+      path: D:/Dineth/Python/binary/Notebooks/z prev/image_stacks/TBI_stacks.npy
+    - name: PBS
+      path: D:/Dineth/Python/binary/Notebooks/z prev/image_stacks/PBS_stacks.npy
+    - name: BMA
+      path: D:/Dineth/Python/binary/Notebooks/z prev/image_stacks/BMA_stacks.npy
+    - name: TBF
+      path: D:/Dineth/Python/binary/Notebooks/z prev/image_stacks/TBF_stacks.npy
+splits:
+  outer_test_size: 0.2
+  inner_val_size: 0.2
+artifacts:
+  save_manifest_snapshot: true
+evaluation:
+  mode: raw
+  reference_paths: {}
+focus_measure:
+  name: cfm4
+  params: {}
+metrics:
+  alpha_softargmax: 6.0
+  rough_weight: 0.05
+  multi_peak_weight: 0.20
+  peak_gap_weight: 0.10
+  flat_weight: 0.10
+  nonfinite_penalty: 1000000.0
+  failure_penalty: 1000000.0
+  stability_threshold: 10000.0
+  stability_penalty_weight: 1000000.0
+  failure_rate_weight: 1000.0
+tuning:
+  mode: per_step
+  steps: []
+  allow_empty_search_space: false
+  objective_mode: reference_or_unsupervised
+  unsupervised_objective: unimodal_peak
+pipeline:
+  steps:
+    - name: identity
+      enabled: true
+      category: structure
+      params: {}
+    - name: clahe_enhancement
+      enabled: true
+      category: contrast
+      params:
+        clip_limit: null
+        tile_grid_size: null
+    - name: unsharp_mask
+      enabled: true
+      category: edge
+      params:
+        sigma: null
+        amount: null
+optuna:
+  n_trials: 50
+  timeout_seconds: 3600
+  direction: minimize
+gp:
+  generations: 150
+  population_size: 50
+  elite_size: 4
+  mutation_rate: 0.2
+  crossover_rate: 0.8
+  cache: true
+  categories:
+    - denoise
+    - contrast
+    - edge
+    - frequency
+    - morph
+    - color
+    - retinex
+    - upsample
+    - structure

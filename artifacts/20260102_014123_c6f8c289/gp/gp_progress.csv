@@ -1,0 +1,4 @@
+generation,best_score,mean_score,std_score,evaluated,cache_hits
+0,100,120,10,5,0
+12,50,75,8,5,1
+24,10,20,2,5,2
