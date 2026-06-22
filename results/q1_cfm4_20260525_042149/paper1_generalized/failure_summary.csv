@@ -1,0 +1,6 @@
+method,failure_count,failure_rate
+oracle_single_exploratory,0,0.0
+conventional_clahe_unsharp,0,0.0
+best_fixed_single,0,0.0
+identity,0,0.0
+generalized_gp_workflow,0,0.0

@@ -1,0 +1,5 @@
+operator_or_workflow,count
+histogram_equalization,3
+laplacian_sharpen,2
+median_filter,1
+unsharp_mask,1

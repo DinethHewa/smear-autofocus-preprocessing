@@ -1,0 +1,124 @@
+[
+  {
+    "heldout_dataset": "BMA",
+    "train_datasets": [
+      "PBS",
+      "TBF",
+      "TBI",
+      "WBC"
+    ],
+    "selected_method": "generalized_gp_workflow",
+    "best_fixed_single_on_training": "single::laplacian_sharpen",
+    "dataset_oracle_single_on_heldout": "single::gaussian_blur",
+    "selection_endpoint": "q1_gp_rank_value_score_on_training_datasets",
+    "pipeline_json": "{\"steps\": [{\"baseline\": false, \"category\": \"gp_step_1\", \"enabled\": true, \"name\": \"laplacian_sharpen\", \"params\": {\"amount\": 1.0, \"ksize\": 3}}]}",
+    "best_score": 2.2571171475156127,
+    "best_genome": [
+      "laplacian_sharpen"
+    ],
+    "gp_progress_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/BMA/gp_progress.csv",
+    "gp_best_by_generation_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/BMA/gp_best_by_generation.csv",
+    "gp_candidate_dataset_metrics_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/BMA/gp_candidate_dataset_metrics.csv",
+    "gp_state_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/BMA/gp_state.json",
+    "optimizer_status": "genetic_programming",
+    "source": "new_gp_candidate_curves_and_q1_metrics"
+  },
+  {
+    "heldout_dataset": "PBS",
+    "train_datasets": [
+      "BMA",
+      "TBF",
+      "TBI",
+      "WBC"
+    ],
+    "selected_method": "generalized_gp_workflow",
+    "best_fixed_single_on_training": "single::histogram_equalization",
+    "dataset_oracle_single_on_heldout": "single::laplacian_sharpen",
+    "selection_endpoint": "q1_gp_rank_value_score_on_training_datasets",
+    "pipeline_json": "{\"steps\": [{\"baseline\": false, \"category\": \"gp_step_1\", \"enabled\": true, \"name\": \"unsharp_mask\", \"params\": {\"amount\": 1.0, \"ksize\": 3, \"sigma\": 1.0}}]}",
+    "best_score": 2.339176739792936,
+    "best_genome": [
+      "unsharp_mask"
+    ],
+    "gp_progress_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/PBS/gp_progress.csv",
+    "gp_best_by_generation_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/PBS/gp_best_by_generation.csv",
+    "gp_candidate_dataset_metrics_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/PBS/gp_candidate_dataset_metrics.csv",
+    "gp_state_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/PBS/gp_state.json",
+    "optimizer_status": "genetic_programming",
+    "source": "new_gp_candidate_curves_and_q1_metrics"
+  },
+  {
+    "heldout_dataset": "TBF",
+    "train_datasets": [
+      "BMA",
+      "PBS",
+      "TBI",
+      "WBC"
+    ],
+    "selected_method": "generalized_gp_workflow",
+    "best_fixed_single_on_training": "single::histogram_equalization",
+    "dataset_oracle_single_on_heldout": "single::laplacian_sharpen",
+    "selection_endpoint": "q1_gp_rank_value_score_on_training_datasets",
+    "pipeline_json": "{\"steps\": [{\"baseline\": false, \"category\": \"gp_step_1\", \"enabled\": true, \"name\": \"median_filter\", \"params\": {\"ksize\": 3}}, {\"baseline\": false, \"category\": \"gp_step_2\", \"enabled\": true, \"name\": \"histogram_equalization\", \"params\": {}}, {\"baseline\": false, \"category\": \"gp_step_3\", \"enabled\": true, \"name\": \"laplacian_sharpen\", \"params\": {\"amount\": 1.0, \"ksize\": 3}}]}",
+    "best_score": 2.512852422562208,
+    "best_genome": [
+      "median_filter",
+      "histogram_equalization",
+      "laplacian_sharpen"
+    ],
+    "gp_progress_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/TBF/gp_progress.csv",
+    "gp_best_by_generation_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/TBF/gp_best_by_generation.csv",
+    "gp_candidate_dataset_metrics_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/TBF/gp_candidate_dataset_metrics.csv",
+    "gp_state_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/TBF/gp_state.json",
+    "optimizer_status": "genetic_programming",
+    "source": "new_gp_candidate_curves_and_q1_metrics"
+  },
+  {
+    "heldout_dataset": "TBI",
+    "train_datasets": [
+      "BMA",
+      "PBS",
+      "TBF",
+      "WBC"
+    ],
+    "selected_method": "generalized_gp_workflow",
+    "best_fixed_single_on_training": "single::laplacian_sharpen",
+    "dataset_oracle_single_on_heldout": "single::laplacian_sharpen",
+    "selection_endpoint": "q1_gp_rank_value_score_on_training_datasets",
+    "pipeline_json": "{\"steps\": [{\"baseline\": false, \"category\": \"gp_step_1\", \"enabled\": true, \"name\": \"histogram_equalization\", \"params\": {}}]}",
+    "best_score": 1.915204849240637,
+    "best_genome": [
+      "histogram_equalization"
+    ],
+    "gp_progress_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/TBI/gp_progress.csv",
+    "gp_best_by_generation_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/TBI/gp_best_by_generation.csv",
+    "gp_candidate_dataset_metrics_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/TBI/gp_candidate_dataset_metrics.csv",
+    "gp_state_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/TBI/gp_state.json",
+    "optimizer_status": "genetic_programming",
+    "source": "new_gp_candidate_curves_and_q1_metrics"
+  },
+  {
+    "heldout_dataset": "WBC",
+    "train_datasets": [
+      "BMA",
+      "PBS",
+      "TBF",
+      "TBI"
+    ],
+    "selected_method": "generalized_gp_workflow",
+    "best_fixed_single_on_training": "single::laplacian_sharpen",
+    "dataset_oracle_single_on_heldout": "single::histogram_equalization",
+    "selection_endpoint": "q1_gp_rank_value_score_on_training_datasets",
+    "pipeline_json": "{\"steps\": [{\"baseline\": false, \"category\": \"gp_step_1\", \"enabled\": true, \"name\": \"histogram_equalization\", \"params\": {}}]}",
+    "best_score": 2.146226561584401,
+    "best_genome": [
+      "histogram_equalization"
+    ],
+    "gp_progress_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/WBC/gp_progress.csv",
+    "gp_best_by_generation_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/WBC/gp_best_by_generation.csv",
+    "gp_candidate_dataset_metrics_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/WBC/gp_candidate_dataset_metrics.csv",
+    "gp_state_json": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/gp_search/WBC/gp_state.json",
+    "optimizer_status": "genetic_programming",
+    "source": "new_gp_candidate_curves_and_q1_metrics"
+  }
+]

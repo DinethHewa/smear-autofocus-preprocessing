@@ -1,0 +1,6 @@
+method,overall_rank_mean,overall_rank_std,rank_generalization_score,alpha,final_rank
+oracle_single_exploratory,2.68,1.1948221624995077,2.234446648749852,0.7,1
+conventional_clahe_unsharp,2.98,1.3782597723216043,2.4994779316964815,0.7,2
+best_fixed_single,2.92,1.569585932658674,2.5148757797976025,0.7,3
+identity,3.18,1.3219682295728592,2.622590468871858,0.7,4
+generalized_gp_workflow,3.24,1.3972830779766856,2.6871849233930054,0.7,5

@@ -1,0 +1,14 @@
+{
+  "stage": "05_generalized_workflow_search_lodo",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "optimizer_status": "genetic_programming",
+  "source": "new_gp_candidate_curves_and_q1_metrics",
+  "lodo_results_per_stack": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/lodo_results_per_stack.csv",
+  "selected_curves_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/paper1_generalized/lodo_selected_focus_curves.csv",
+  "total_heldout_datasets": 5,
+  "completed_heldout_datasets": 5,
+  "remaining_heldout_datasets": 0,
+  "progress_percent": 100.0,
+  "timestamp_utc": "2026-06-10T18:58:59.441002+00:00"
+}

@@ -1,0 +1,6 @@
+method,rank_generalization_score,rank_final_rank,value_generalization_score,value_final_rank,failure_count,failure_rate,mean_execution_time,score_direction
+oracle_single_exploratory,2.234446648749852,1,0.24295797955512347,1,0,0.0,0.003735835434800837,lower_is_better
+conventional_clahe_unsharp,2.4994779316964815,2,0.31648700968479054,2,0,0.0,0.0048663255041633165,lower_is_better
+best_fixed_single,2.5148757797976025,3,0.37352866345452185,4,0,0.0,0.0037664674303354794,lower_is_better
+identity,2.622590468871858,4,0.3892239374334778,5,0,0.0,0.0036783110792250984,lower_is_better
+generalized_gp_workflow,2.6871849233930054,5,0.3622730887171073,3,0,0.0,0.006048677955845333,lower_is_better

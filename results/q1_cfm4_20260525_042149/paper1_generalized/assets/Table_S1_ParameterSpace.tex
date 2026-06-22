@@ -1,0 +1,59 @@
+\begin{tabular}{lrrrrrrr}
+\hline
+category & operator & parameter\_name & parameter\_type & search\_range\_or\_options & default\_or\_fixed\_value & availability\_status & notes \\
+\hline
+Structure & anisotropic\_diffusion & n\_iter & int & 3..10 & 5 & available &  \\
+Structure & anisotropic\_diffusion & kappa & float & 10.0..50.0 & 30.0 & available &  \\
+Structure & anisotropic\_diffusion & gamma & float & 0.05..0.2 & 0.1 & available &  \\
+Uncategorized & apply\_median\_filter & ksize & fixed &  &  & available & fixed/default parameter \\
+Uncategorized & apply\_reinhard & target\_mean & fixed &  &  & available & fixed/default parameter \\
+Uncategorized & apply\_reinhard & target\_std & fixed &  &  & available & fixed/default parameter \\
+Upsample & bicubic\_upsample & scale & float & 1.0..2.0 & 1.5 & available &  \\
+Uncategorized & bilateral\_edge\_preserve & d & int & 3..9 & 7 & available &  \\
+Uncategorized & bilateral\_edge\_preserve & sigma\_color & float & 10.0..100.0 & 75.0 & available &  \\
+Uncategorized & bilateral\_edge\_preserve & sigma\_space & float & 10.0..100.0 & 75.0 & available &  \\
+Denoise & bilateral\_filter & d & int & 3..9 & 5 & available &  \\
+Denoise & bilateral\_filter & sigma\_color & float & 10.0..100.0 & 50.0 & available &  \\
+Denoise & bilateral\_filter & sigma\_space & float & 10.0..100.0 & 50.0 & available &  \\
+Contrast & clahe\_enhancement & clip\_limit & float & 1.0..5.0 & 2.0 & available &  \\
+Contrast & clahe\_enhancement & tile\_grid\_size & int & 4..16 & 8 & available &  \\
+Edge & dog\_filter & ksize1 & int & 1..7 & 3 & available &  \\
+Edge & dog\_filter & ksize2 & int & 3..11 & 7 & available &  \\
+Edge & dog\_filter & sigma1 & float & 0.3..2.0 & 0.5 & available &  \\
+Edge & dog\_filter & sigma2 & float & 0.5..3.0 & 1.5 & available &  \\
+Frequency & dwt\_filter & wavelet & categorical & haar|db1|db2 & haar & available &  \\
+Frequency & fft\_highpass\_filter & cutoff & float & 0.05..0.3 & 0.1 & available &  \\
+Frequency & gabor\_filter & ksize & int & 5..15 & 9 & available &  \\
+Frequency & gabor\_filter & sigma & float & 1.0..5.0 & 2.0 & available &  \\
+Frequency & gabor\_filter & theta & float & 0.0..3.1415 & 0.0 & available &  \\
+Frequency & gabor\_filter & lam & float & 5.0..20.0 & 10.0 & available &  \\
+Frequency & gabor\_filter & gamma & float & 0.2..0.9 & 0.5 & available &  \\
+Contrast & gamma\_correction & gamma & float & 0.5..2.0 & 1.0 & available &  \\
+Denoise & gaussian\_blur & ksize & int & 1..9 & 3 & available &  \\
+Denoise & gaussian\_blur & sigma & float & 0.0..2.0 & 0.0 & available &  \\
+Morph & gradient\_morph & ksize & int & 3..9 & 3 & available &  \\
+Structure & guided\_filter & radius & int & 3..9 & 5 & unavailable & unavailable in this environment \\
+Structure & guided\_filter & eps & float & 0.0001..0.01 & 0.001 & unavailable & unavailable in this environment \\
+Contrast & histogram\_equalization &  & none &  &  & available & no tunable parameters \\
+Denoise & identity &  & none &  &  & available & no tunable parameters \\
+Edge & laplacian\_sharpen & ksize & int & 1..9 & 3 & available &  \\
+Edge & laplacian\_sharpen & amount & float & 0.0..2.0 & 1.0 & available &  \\
+Color & macenko\_normalization &  & none &  &  & unavailable & unavailable in this environment \\
+Denoise & median\_filter & ksize & int & 1..9 & 3 & available &  \\
+Morph & morph\_open\_close & ksize & int & 3..9 & 3 & available &  \\
+Retinex & msrcr & gain & float & 0.5..2.0 & 1.0 & available &  \\
+Retinex & msrcr & offset & float & -1.0..1.0 & 0.0 & available &  \\
+Denoise & nlm\_denoising & h & float & 5.0..20.0 & 10.0 & available &  \\
+Denoise & nlm\_denoising & template\_window\_size & int & 3..7 & 7 & available &  \\
+Denoise & nlm\_denoising & search\_window\_size & int & 7..21 & 21 & available &  \\
+Color & reinhard\_normalization & target\_mean & fixed &  &  & available & fixed/default parameter \\
+Color & reinhard\_normalization & target\_std & fixed &  &  & available & fixed/default parameter \\
+Upsample & sr\_model & scale & float & 1.0..2.0 & 1.5 & available &  \\
+Retinex & ssr & sigma & float & 5.0..50.0 & 15.0 & available &  \\
+Structure & steerable\_filter &  & none &  &  & available & no tunable parameters \\
+Morph & tophat\_bothat & ksize & int & 3..9 & 5 & available &  \\
+Edge & unsharp\_mask & sigma & float & 0.5..3.0 & 1.0 & available &  \\
+Edge & unsharp\_mask & amount & float & 0.0..2.0 & 1.0 & available &  \\
+Color & vahadane\_normalization &  & none &  &  & unavailable & unavailable in this environment \\
+\hline
+\end{tabular}
