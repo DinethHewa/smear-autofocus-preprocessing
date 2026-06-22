@@ -1,0 +1,4 @@
+timestamp_utc,target,script,args,runtime_seconds,peak_memory_bytes,input_file_count,output_file_count,output_file_count_delta,rows_processed,images_processed,cpu_gpu_mode,returncode
+2026-05-24T22:38:37.465880+00:00,original,scripts/q1_pipeline/10_run_full_q1_pipeline.py,--config configs/q1_smoke.yaml --smoke --run-id perf_original_20260525_040825,7.274736,0,,0,0,,,cpu_or_script_default,0
+2026-05-24T22:42:47.857943+00:00,optimized,scripts/q1_pipeline/10_run_full_q1_pipeline.py,--config configs/q1_smoke.yaml --smoke --run-id perf_optimized_20260525_041229,6.439032,0,,0,0,,,cpu_or_script_default,0
+2026-05-24T22:44:18.528568+00:00,optimized,scripts/q1_pipeline/10_run_full_q1_pipeline.py,--config configs/q1_smoke.yaml --smoke --run-id perf_optimized_mem_20260525_041500,6.813186,384507904,,0,0,,,cpu_or_script_default,0
