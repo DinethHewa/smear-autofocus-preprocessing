@@ -1,0 +1,14 @@
+{
+  "steps": [
+    {
+      "name": "laplacian_sharpen",
+      "enabled": true,
+      "params": {
+        "ksize": 3,
+        "amount": 1.0
+      },
+      "category": "gp_step_1",
+      "baseline": false
+    }
+  ]
+}

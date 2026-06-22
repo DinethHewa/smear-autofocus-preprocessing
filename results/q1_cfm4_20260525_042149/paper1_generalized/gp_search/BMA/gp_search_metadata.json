@@ -1,0 +1,13 @@
+{
+  "search_name": "generalized_lodo_BMA",
+  "search_stack_counts": {
+    "PBS": 10,
+    "TBF": 10,
+    "TBI": 10,
+    "WBC": 10
+  },
+  "search_max_stacks_per_dataset": 10,
+  "search_compute_rrmse": false,
+  "candidate_chunk_stack_count": 2,
+  "candidate_num_workers": 4
+}
