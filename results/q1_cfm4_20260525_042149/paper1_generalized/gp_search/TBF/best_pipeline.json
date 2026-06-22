@@ -1,0 +1,30 @@
+{
+  "steps": [
+    {
+      "name": "median_filter",
+      "enabled": true,
+      "params": {
+        "ksize": 3
+      },
+      "category": "gp_step_1",
+      "baseline": false
+    },
+    {
+      "name": "histogram_equalization",
+      "enabled": true,
+      "params": {},
+      "category": "gp_step_2",
+      "baseline": false
+    },
+    {
+      "name": "laplacian_sharpen",
+      "enabled": true,
+      "params": {
+        "ksize": 3,
+        "amount": 1.0
+      },
+      "category": "gp_step_3",
+      "baseline": false
+    }
+  ]
+}

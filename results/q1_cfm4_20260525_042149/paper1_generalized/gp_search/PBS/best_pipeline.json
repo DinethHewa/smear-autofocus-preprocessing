@@ -1,0 +1,15 @@
+{
+  "steps": [
+    {
+      "name": "unsharp_mask",
+      "enabled": true,
+      "params": {
+        "sigma": 1.0,
+        "amount": 1.0,
+        "ksize": 3
+      },
+      "category": "gp_step_1",
+      "baseline": false
+    }
+  ]
+}
