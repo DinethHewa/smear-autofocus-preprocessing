@@ -1,0 +1,30 @@
+{
+  "steps": [
+    {
+      "name": "fft_highpass_filter",
+      "enabled": true,
+      "params": {
+        "cutoff": 0.1
+      },
+      "category": "gp_step_1",
+      "baseline": false
+    },
+    {
+      "name": "gaussian_blur",
+      "enabled": true,
+      "params": {
+        "ksize": 3,
+        "sigma": 0.0
+      },
+      "category": "gp_step_2",
+      "baseline": false
+    },
+    {
+      "name": "histogram_equalization",
+      "enabled": true,
+      "params": {},
+      "category": "gp_step_3",
+      "baseline": false
+    }
+  ]
+}

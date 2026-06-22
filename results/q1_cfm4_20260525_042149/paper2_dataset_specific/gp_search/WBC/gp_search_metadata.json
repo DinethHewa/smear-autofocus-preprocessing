@@ -1,0 +1,12 @@
+{
+  "search_name": "dataset_specific_WBC",
+  "search_stack_counts": {
+    "WBC": 10
+  },
+  "search_max_stacks_per_dataset": 10,
+  "search_compute_rrmse": false,
+  "candidate_chunk_stack_count": 2,
+  "candidate_num_workers": 1,
+  "candidate_num_workers_requested": 1,
+  "cuda_serial_worker_policy": false
+}
