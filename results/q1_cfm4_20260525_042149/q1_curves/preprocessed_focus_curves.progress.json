@@ -1,0 +1,11 @@
+{
+  "stage": "03_run_preprocessed_focus_curves",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "curves_csv": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/q1_curves/preprocessed_focus_curves.csv",
+  "total_stack_method_pairs": 469800,
+  "completed_stack_method_pairs": 469800,
+  "remaining_stack_method_pairs": 0,
+  "progress_percent": 100.0,
+  "timestamp_utc": "2026-06-02T04:08:24.904961+00:00"
+}

@@ -1,0 +1,11 @@
+metric_name,direction,aggregation_transform,description
+absolute_peak_localization_error,lower_is_better,identity,Absolute difference between predicted and reference focus index.
+fwhm,lower_is_better,identity,Full width at half maximum of the normalized focus curve.
+curvature_at_peak,higher_is_better,reciprocal_for_value_scoring,Local second-order peak sharpness proxy.
+steep_slope_width,lower_is_better,identity,Width of the steep response region around the main peak.
+steep_to_gradual_slope_ratio,higher_is_better,reciprocal_for_value_scoring,Ratio of local peak slope to background slope level.
+false_maxima_count,lower_is_better,identity,Count of local maxima excluding the global maximum.
+noise_level,lower_is_better,identity,Mean squared second-difference fluctuation of the focus curve.
+rrmse_under_additive_noise,lower_is_better,identity,Relative RMSE between clean and noisy normalized focus curves.
+range_around_global_maximum,lower_is_better,identity,Width of the high-response plateau around the global maximum.
+execution_time_per_slice,lower_is_better,identity,Average execution time per image/slice in seconds.

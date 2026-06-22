@@ -1,0 +1,11 @@
+{
+  "stage": "04_evaluate_workflows_q1_metrics",
+  "status": "complete",
+  "run_id": "q1_cfm4_20260525_042149",
+  "per_stack_metrics": "/home/dineth/focus_measure/journal/autofocus_preprocess/paper_outputs/q1_cfm4_20260525_042149/q1_metrics/per_stack_metrics.csv",
+  "total_stack_method_pairs": 469800,
+  "completed_stack_method_pairs": 469800,
+  "remaining_stack_method_pairs": 0,
+  "progress_percent": 100.0,
+  "timestamp_utc": "2026-06-02T04:08:37.048199+00:00"
+}
