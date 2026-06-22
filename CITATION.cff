@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or its derived outputs, cite the software DOI and the companion results DOI."
+title: "CFM4-Based Preprocessing Optimization for Smear Microscopy Autofocus: Generalized and Dataset-Specific Workflows"
+type: software
+authors:
+  - family-names: "REPLACE_WITH_FAMILY_NAME"
+    given-names: "Dineth"
+    orcid: "https://orcid.org/REPLACE_WITH_ORCID"
+version: 1.0.0
+date-released: 2026-06-22
+repository-code: "https://github.com/REPLACE_WITH_GITHUB_USERNAME/REPLACE_WITH_REPOSITORY_NAME"
+license: MIT
+keywords:
+  - microscopy autofocus
+  - smear microscopy
+  - preprocessing optimization
+  - genetic programming
+  - focus curves
+  - CFM4
+  - leave-one-dataset-out
+  - reproducible research
+

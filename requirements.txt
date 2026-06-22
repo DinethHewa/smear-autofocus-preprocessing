@@ -1,0 +1,14 @@
+numpy
+pandas
+pyyaml
+scipy
+scikit-image
+opencv-python
+optuna
+deap
+tqdm
+joblib
+matplotlib
+imageio
+pywavelets
+pytest

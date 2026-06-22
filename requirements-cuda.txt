@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# Install a Torch build compatible with the local NVIDIA driver/CUDA runtime.
+# See https://pytorch.org/get-started/locally/ before installing this file.
+torch
+

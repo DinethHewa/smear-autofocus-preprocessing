@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smear-autofocus-preprocess"
+version = "1.0.0"
+description = "CFM4-based preprocessing optimization for smear microscopy autofocus"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "REPLACE_WITH_CREATOR_NAME"}
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "PyYAML",
+  "scipy",
+  "scikit-image",
+  "opencv-python",
+  "optuna",
+  "deap",
+  "tqdm",
+  "joblib",
+  "matplotlib",
+  "imageio",
+  "PyWavelets"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+cuda = ["torch"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
