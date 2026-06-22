@@ -1,0 +1,9 @@
+search_name,generation,best_score,genome_json,pipeline_json,candidate_id
+dataset_specific_TBF,1,2.79,"[""gradient_morph""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""gradient_morph"", ""params"": {""ksize"": 3}}]}",gp::b25a980af892a3aa
+dataset_specific_TBF,2,2.480480547186924,"[""gradient_morph""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""gradient_morph"", ""params"": {""ksize"": 3}}]}",gp::b25a980af892a3aa
+dataset_specific_TBF,3,2.293392015141785,"[""gradient_morph""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""gradient_morph"", ""params"": {""ksize"": 3}}]}",gp::b25a980af892a3aa
+dataset_specific_TBF,4,2.0140658617698013,"[""gradient_morph""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""gradient_morph"", ""params"": {""ksize"": 3}}]}",gp::b25a980af892a3aa
+dataset_specific_TBF,5,2.0140658617698013,"[""gradient_morph""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""gradient_morph"", ""params"": {""ksize"": 3}}]}",gp::b25a980af892a3aa
+dataset_specific_TBF,6,2.0140658617698013,"[""gradient_morph""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""gradient_morph"", ""params"": {""ksize"": 3}}]}",gp::b25a980af892a3aa
+dataset_specific_TBF,7,2.0140658617698013,"[""gradient_morph""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""gradient_morph"", ""params"": {""ksize"": 3}}]}",gp::b25a980af892a3aa
+dataset_specific_TBF,8,2.0140658617698013,"[""gradient_morph""]","{""steps"": [{""baseline"": false, ""category"": ""gp_step_1"", ""enabled"": true, ""name"": ""gradient_morph"", ""params"": {""ksize"": 3}}]}",gp::b25a980af892a3aa

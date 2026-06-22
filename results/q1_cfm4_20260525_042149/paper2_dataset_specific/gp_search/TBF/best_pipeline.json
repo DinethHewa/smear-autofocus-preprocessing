@@ -1,0 +1,13 @@
+{
+  "steps": [
+    {
+      "name": "gradient_morph",
+      "enabled": true,
+      "params": {
+        "ksize": 3
+      },
+      "category": "gp_step_1",
+      "baseline": false
+    }
+  ]
+}
